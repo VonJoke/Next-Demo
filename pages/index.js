@@ -10,7 +10,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          This is <a href="https://nextjs.org">Google</a>
+          This is{' '}
+          <a href="https://google.com" target="_blank">
+            Google
+          </a>
         </h1>
 
         <p className={styles.description}>
